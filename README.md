@@ -88,7 +88,7 @@ curl -X DELETE -H "Content-Type: application/json" -d '{"id":"1"}' http://localh
     Start Apache and MySQL services.
     Access the API at: http://localhost/php-restful-user-api/index.php
 
-5. Basic example for gut commit:
+5. Basic example for git commit:
 
     cd project folder
     git init

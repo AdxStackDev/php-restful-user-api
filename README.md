@@ -44,9 +44,9 @@ php-restful-user-api/
 ---
 
 ## 📦 Sample Requests
-
-### Create User (POST)
 ```bash
+Create User (POST)
+
 curl -X POST -d "name=John Doe&email=john@example.com&age=30" http://localhost/index.php
 
 Get All Users (GET)
@@ -87,8 +87,8 @@ curl -X DELETE -H "Content-Type: application/json" -d '{"id":"1"}' http://localh
     Place the project folder inside your XAMPP/MAMP htdocs directory.
     Start Apache and MySQL services.
     Access the API at: http://localhost/php-restful-user-api/index.php
-
-5. Basic example for git commit:
+```
+## Basic example for git commit:
 
     cd project folder
     git init
@@ -99,5 +99,5 @@ curl -X DELETE -H "Content-Type: application/json" -d '{"id":"1"}' http://localh
     git push -u origin main
 
 
-📄 License
+## 📄 License
     This project is licensed under the MIT License.
